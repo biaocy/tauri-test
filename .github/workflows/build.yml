@@ -7,7 +7,7 @@ on:
 jobs:
   publish-release:
     permissions:
-      contents: read/write
+      contents: 'read/write'
     strategy:
       fail-fast: false
       matrix:
